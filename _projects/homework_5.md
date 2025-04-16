@@ -17,11 +17,11 @@ custom_js:
 
 ## Write Up 1
 
-This visualization shows the total square footage of buildings managed by each agency, based solely on the year the building was constructed. By isolating this year type, the chart gives a clearer picture of the original development footprint of each agency, highlighting which ones are responsible for the largest volume of older or newly built structures. For this design, I used a vertical bar chart with nominal encoding on the x-axis (Agency Name) and quantitative encoding on the y-axis (Square Footage). Agency names are angled for readability due to the number of categories. I filtered the dataset to include only rows where Year Type equals "Year Constructed" after using melt() to combine the acquisition and construction years into a single column. Rows with missing square footage or year data were removed to maintain accuracy. While no color scheme is used in this version, the simplicity helps keep the focus on relative square footage between agencies. Interactivity could be added through tooltips or filtering, but this static version emphasizes overall distribution patterns.
+This visualization shows the total square footage of buildings managed by each agency, based  on the year the building was constructed and acquired. For this design, I used a vertical bar chart with nominal encoding on the x-axis (Agency Name) and quantitative encoding on the y-axis (Square Footage). Agency names are angled for readability due to the number of categories. I filtered the dataset to include only rows where Year Type equals "Year Constructed" after using melt() to combine the acquisition and construction years into a single column. Rows with missing square footage or year data were removed to maintain accuracy. While no color scheme is used in this version, the simplicity helps keep the focus on relative square footage between agencies. Interactivity could be added through tooltips or filtering, but this static version emphasizes overall distribution patterns.
 
 # Chart 2 With Interactivity
 
-<vegachart schema-url="{{ site.baseurl }}/assets/json/saved_plot5_sp25.json" style="width: 100%"></vegachart>
+<vegachart schema-url="{{ site.baseurl }}/assets/json/saved_plot6_sp25.json" style="width: 100%"></vegachart>
 
 ## Write Up 2
 
