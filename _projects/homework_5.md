@@ -17,7 +17,7 @@ custom_js:
 
 ## Write Up 1
 
-This visualization shows the total square footage of buildings managed by each agency, based  on the year the building was constructed and acquired. For this design, I used a vertical bar chart with nominal encoding on the x-axis (Agency Name) and quantitative encoding on the y-axis (Square Footage). Agency names are angled for readability due to the number of categories. I filtered the dataset to include only rows where Year Type equals "Year Constructed" after using melt() to combine the acquisition and construction years into a single column. Rows with missing square footage or year data were removed to maintain accuracy. While no color scheme is used in this version, the simplicity helps keep the focus on relative square footage between agencies. Interactivity could be added through tooltips or filtering, but this static version emphasizes overall distribution patterns.
+This visualization shows the total square footage of buildings managed by each agency, based  on the year the building was constructed and acquired. For this design, I used a vertical bar chart with nominal encoding on the x-axis (Agency Name) and quantitative encoding on the y-axis (Square Footage). I filtered the dataset to include only rows where Year Type equals "Year Constructed" after melting some features to combine the acquisition and construction years into a single column. Rows with missing square footage or year data were removed to maintain accuracy. While no color scheme is used in this version, the simplicity helps keep the focus on the square footage between agencies. Interactivity could be added through tooltips or filtering, but this version emphasizes overall distribution patterns.
 
 # Chart 2 With Interactivity
 
