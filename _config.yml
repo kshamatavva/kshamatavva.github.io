@@ -5,12 +5,12 @@
 # NOTE: it looks like you need to rebuild + repush everytime you update this _config.yml file
 
 ### Site Settings ###
-title               : IS445 Jekyll Template 
+title               : Kshama Tavva's Jekyll
 description         : >-
-                      I am definitely not a corgi!
+                      I'm a junior majoring in political science with a minor in data science and public relations!
 baseurl             : ""   # Change to empty quotes if you are hosting your site at <your-username>.github.io directly,
 #                                             otherwise will be hosted at <your-username>.github.io/{{base_url}}
-repository          :                     # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
+repository          : kshamatavva/kshamatavva.github.io                   # Change to <your-username> for github OR, if that doesn't work <your-username>/<your-username>.github.io (or remove it if you don't need remote projects) -- for example, I would put "jnaiman" without the quotes after the ":" here
 open_new_tab        : false                             # Opens external URLs in new tab (works for posts, projects and navbar only)
 
 
@@ -20,7 +20,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate-v2
   - mini_magick
-
+  
 ### To specify which port to host locally on -- use if you have multiple sites you want to host 
 port: 4008
 
@@ -35,7 +35,7 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : A. P. Corgi
-  image             : https://media.tenor.com/8RcIoWTKYR4AAAAe/scuze-corgi.png
+  image             : https://science.nasa.gov/wp-content/uploads/2024/01/preview-supermoons.jpg?w=1200
 #  behance           : your_username
 # dribbble          : your_username
   email             : username@domain.com
