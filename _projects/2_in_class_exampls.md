@@ -37,10 +37,10 @@ Now we'll learn how to save our specficatiosn for inclusion from a python notebo
 <!-- these are written in a combo of html and liquid --> 
 
 <div class="left">
-{% include elements/button.html link="https://github.com/vega/vega/blob/main/docs/data/cars.json" text="The Data" %}
+{% include elements/button.html link="https://raw.githubusercontent.com/UIUC-iSchool-DataViz/is445_data/main/mobility.csv" text="The Data" %}
 </div>
 
 <div class="right">
-{% include elements/button.html link="https://github.com/jnaiman/online_cv_public/blob/main/python_notebooks/test_generate_plots.ipynb" text="The Analysis" %}
+{% include elements/button.html link="https://github.com/kshamatavva/kshamatavva.github.io/blob/main/python_notebooks/inClass_week11.ipynb" text="The Analysis" %}
 </div>
 
